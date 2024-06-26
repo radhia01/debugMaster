@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.empty_div {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 200;
+
+  font-weight: bold;
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: #f2bbc9;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.empty_div {
+  height: 300px !important;
+  background-color: white !important;
+}
+
+.background-image {
+  background-image: url("https://images.pexels.com/photos/4321164/pexels-photo-4321164.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 370px; /* Ajustez la hauteur selon vos besoins */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main {
+  flex: 1; /* Cela pousse le contenu vers le bas de la page */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

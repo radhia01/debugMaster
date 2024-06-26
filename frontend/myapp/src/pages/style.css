@@ -1,0 +1,105 @@
+/* Login  and Register components   */
+.login .navbar,
+.register .navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  font-size: 10px;
+  background-color:#8C8C8C;
+}
+.login .card,
+.register .card {
+  position: fixed;
+  top: 130px !important;
+  width: 30% !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.login .login_input,
+.register .resgiter_input {
+  height: 50px !important;
+  border-radius: 0px !important;
+}
+.login_input:focus,
+.resgiter_input:focus {
+  outline: none !important;
+  border: 1px solid black !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+.login .login_btn,
+.register .register_btn {
+  background-color: #bf1f2c !important;
+  border-color: #bf1f2c !important;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 0px;
+}
+.login_link {
+  font-weight: 500 !important;
+  font-size: 15px;
+  text-decoration: none;
+}
+/* Profile component  */
+.user_profile {
+  height: 100vh;
+}
+.profile_bar {
+  width: 100%;
+  border-radius: 10px;
+  height: 80px;
+}
+.bar_btn {
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #0087cc !important;
+  color: white(27, 26, 26);
+  border-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: bold;
+}
+.profile_part2 {
+  position: absolute;
+}
+.body {
+  background-color: #f2f2f2;
+}
+.profile_input {
+  height: 50px !important;
+}
+.profile_input:focus {
+  box-shadow: none !important;
+  outline: none;
+  border-color: black !important  ;
+}
+.profile_save_btn {
+  background-color: black !important;
+  border-color: black !important;
+  width: 120px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.profile_close_btn {
+  background-color: white !important;
+  color: black !important;
+  position: absolute;
+  right: 0px;
+  font-size: 10px !important;
+  top: 0px;
+
+  border-color: white !important;
+  height: 20px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: start !important;
+}

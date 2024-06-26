@@ -1,0 +1,236 @@
+/* Problem List component  */
+
+.problems_list {
+  width: 98%;
+  position: absolute;
+  top:70px;
+  padding:30px 40px 120px 40px;
+  background-color: white;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 100px;
+}
+.problems_list .title {
+  height: 80px;
+}
+.problems_list .search_part {
+  height: 80px;
+}
+.problems_list .list {
+  height: 400px !important;
+  margin-top: 20px;
+}
+.problems_list .problem_item {
+  background-color: #e52535 !important;
+  border-radius: 20px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  color: white !important;
+  font-size: 18px;
+}
+
+.problems_list .delete_btn {
+  background-color: #e52535 !important;
+  color: white !important;
+  border-color: #e52535 !important;
+  position: absolute;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+}
+.problems_list .btn_detail {
+  width: 80px !important;
+  font-size: 10px;
+  position: absolute;
+  right: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-top: 4px;
+  background-color: #e52535 !important;
+  color: white !important;
+  border-color: #e52535 !important;
+  font-weight: bold;
+}
+.problems_list .prev_btn,
+.problems_list .next_btn {
+  width: 10% !important;
+  background-color: black !important;
+  border-color: black !important;
+  margin: 10px !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.problems_list .tag {
+  background-color: white !important;
+  height: 10px;
+  border-color: black !important ;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+}
+.problems_list .tag:hover {
+  background-color: #e52535 !important;
+  border-color: white !important;
+}
+
+.problems_list .tags_list {
+  margin-top: 20px;
+  min-height: 150px !important;
+  border: 1px solid white;
+}
+.yes_btn {
+  background-color: green !important;
+  width: 150px !important;
+  color: white !important;
+  margin: 10px !important;
+  border-color: green !important;
+}
+.no_btn {
+  background-color: red !important;
+  width: 150px !important;
+  color: white !important;
+  margin: 10px !important;
+  border-color: red !important;
+}
+/* problem component */
+.add_problem {
+  width: 98%;
+  position: absolute;
+  top:100px;
+  padding:50px 50px 100px 50px;
+  background-color: white;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 100px;
+}
+.list_title {
+  font-family: "Bitter", serif !important;
+}
+.add_problem .input:focus {
+  outline: none !important;
+  border: 1px solid black !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+
+.problem_form {
+  display: flex !important;
+}
+.add_btn {
+  background-color: black !important;
+  width: 150px;
+  border-color: black !important;
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px !important;
+}
+.add_problem_btn {
+  background-color: black !important;
+  width: 170px;
+  border-color: black !important;
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px !important;
+}
+.home_page_section4 {
+  background-color: white !important;
+  width: 200px;
+}
+.search_form {
+  height: 70px;
+  width: 70%;
+  font-size: 10px !important;
+  border: 2px solid black;
+  box-shadow: none;
+}
+.search_form:focus {
+  outline: none !important;
+  border: 1px solid black !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+/* problem form */
+.problem_form {
+  position: absolute;
+  background-color: white;
+  border: 20px;
+  font-size: 15px !important;
+  border-radius: 20px;
+}
+.form_header {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.close_btn {
+  background-color: white !important;
+  color: black !important;
+  position: absolute;
+  right: 0;
+  width: 70px;
+  border-color: white !important;
+  font-size: 10px !important;
+}
+.form_group {
+  font-size: 14px !important;
+}
+.form_control {
+  height: 45px !important;
+}
+
+/* problem component  */
+.problem_form {
+  font-size: 15px;
+}
+.problem_form_group {
+  width: 60% !important;
+  height: 50px;
+}
+.next_btn {
+  background-color: black !important;
+  width: 150px;
+  border-color: black !important;
+  font-size: 13px;
+  font-weight: bold;
+  height: 35px !important;
+}
+/* // problem description */
+.problem_description {
+  position: absolute;
+  top:100px;
+padding:40px 40px 80px 40px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  width: 90%;
+  margin-bottom: 200px;
+  padding: 50px;
+}
+.line {
+  height: 2px;
+  font-size: 30px;
+  width: 80%;
+  background-color: grey;
+}
+p {
+  font-size: 10px;
+  margin: 17px;
+}
+.tag {
+  background-color: white !important;
+  min-width: 80px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
